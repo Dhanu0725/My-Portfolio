@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem;
+    background-color: #ADD8E6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+h1{
+    font-family: cursive;
+    font-style: serif;
+    color: #1a759f;
+    letter-spacing: 2px;
+    margin-left: -250px;
+}
+
+.logo {
+    height: 100px; /* Adjust the height as needed */
+    margin-right: -3px; /* Space between the logo and text */
+}
+ 
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin: 0 2rem;
+}
+
+.nav-list a {
+    color: #1a759f;
+    font-weight: bold;
+    font-family: cursive;
+    font-style: serif;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.nav-list a:hover {
+    color: black; /* Change color on hover */
+}
+
+.nav-toggle {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        background-color: #E6E6FA;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+        transition: right 0.3s ease;
+    }
+
+    .nav-list.active {
+        right: 0;
+    }
+
+    .nav-list li {
+        margin: 2rem 0;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+}

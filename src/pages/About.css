@@ -1,0 +1,94 @@
+/* About.css */
+.about {
+    padding: 20px;
+    color: #1a759f;
+    font-size: 1.5rem;
+    font-family: cursive;
+    font-style: serif;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.about-me, .education {
+    width: 45%;
+}
+
+.about-me p {
+    color: #1a759f;
+    font-size: 1rem;
+    font-style: serif;
+    padding:3%;
+    text-align: justify;
+    margin-left: -13px;
+}
+
+.education .heading {
+    margin-left: -105px; /* Adjust this value to move the heading to the left */
+}
+
+.education h2 {
+    font-size: 2.3em; /* Change font size of the Education heading */
+    margin-bottom: 20px; /* Space below the Education heading */
+    color: #1a759f;
+    letter-spacing: 2px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #1a759f;
+    font-size: 1rem;
+    font-family: cursive;
+    font-style: serif;
+    letter-spacing: 2px;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 15px;
+    color:#1a759f;
+}
+
+.education-box {
+    background: #ADD8E6;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.university-logo {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    object-fit: cover;
+    position: absolute;
+    left: -120px;
+    border-radius: 50%;
+}
+
+/* Optional: Add responsiveness */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-me, .education {
+        width: 100%;
+    }
+
+    .university-logo {
+        width: 50px; /* Adjust size for smaller screens */
+        height: 50px; /* Adjust size for smaller screens */
+        left: -55px;
+    }
+}
