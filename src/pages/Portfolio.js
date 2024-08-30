@@ -48,7 +48,8 @@ const Portfolio = () => {
                             track income and expenses, categorize them, and visualize spending habits.
                             The main goal is to give users insight into their financial habits, enabling 
                             them to make informed decisions and manage their budgets effectively.
-                            Used Postgres to store transactions, categories, and user data.</p>
+                            This uses the MERN stack (MongoDB, Express.js, React.js, 
+                            and Node.js) to create a scalable, responsive, and user-friendly application.</p>
                     </div>
                 </div>
                 <div className="item" data-aos="zoom-in" data-aos-delay="200"> 
