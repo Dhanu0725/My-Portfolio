@@ -75,6 +75,31 @@
     border-radius: 50%;
 }
 
+.resume {
+    margin-top: 100px;
+    margin-left: -700px;
+    text-align: center;
+}
+
+.resume-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ADD8E6;
+    color: #1a759f;
+    font-style: serif;
+    font-family: cursive;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+    background-color: rgb(176, 173, 173);
+}
+
+
 /* Optional: Add responsiveness */
 @media (max-width: 768px) {
     .container {

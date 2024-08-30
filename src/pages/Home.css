@@ -1,3 +1,16 @@
+.typewriter {
+    display: inline-block;
+    border-right: 2px solid black; /* Adjust the thickness and color of the cursor */
+    white-space: nowrap; /* Ensure the text doesn't wrap */
+    overflow: hidden; /* Hide overflowing text */
+    animation: typing 0s steps(30, end); /* Typewriter animation */
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
 .home {
     display: flex;
     align-items: center;

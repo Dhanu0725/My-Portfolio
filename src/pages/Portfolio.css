@@ -52,3 +52,75 @@
 .item:hover {
     transform: scale(1.05);
 }
+
+.certifications {
+    margin-top: 2rem;
+}
+.certification-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.certification-logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Modal styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none; /* Hidden by default */
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* On top of other content */
+}
+
+.modal.active {
+    display: flex; /* Show when active */
+}
+
+.modal-content {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 60%;
+    max-height: 80%;
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    position: relative;
+}
+
+.modal-content img {
+    max-width: 25%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.modal-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.modal-content p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+

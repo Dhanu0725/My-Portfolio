@@ -1,7 +1,14 @@
-import React from 'react';
+
+import React, { useState } from 'react';
 import './About.css'; // Ensure this file contains your styles
+import ResumePopup from '../components/ResumePopup'; // Ensure path according to your directory structure
+
 
 const About = () => {
+    const [isPopupOpen, setPopupOpen] = useState(false);
+
+    const openPopup = () => setPopupOpen(true);
+    const closePopup = () => setPopupOpen(false);
     return (
         <section id="about" className="about">
             <div className="container">
@@ -43,7 +50,11 @@ const About = () => {
                             <p>Bachelor of Technology in Computer Science</p>
                         </div>
                     </div>
+                    <div className="resume" data-aos="fade-up" data-aos-delay="500">
+                        <button className="resume-button" onClick={openPopup}>View Resume</button>
+                    </div>
                 </div>
+                <ResumePopup isOpen={isPopupOpen} onClose={closePopup} />
             </div>
         </section>
     );
