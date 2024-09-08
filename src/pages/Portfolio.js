@@ -41,7 +41,7 @@ const Portfolio = () => {
             <div className="projects-items">
                 <div className="item" data-aos="zoom-in" data-aos-delay="100"> 
                     <h3 className="project-title">Expense Tracker</h3>
-                    <p className="project-date">January 2022 - April 2022</p>
+                    <p className="project-date">August 2022 - December 2022</p>
                     <div className="project-description">
                         <img src={require('../assets/expense-tracker.png')} alt="Expense Tracker" className="project-image" />
                         <p>It is a personal finance management tool with React, allowing users to 
@@ -54,7 +54,7 @@ const Portfolio = () => {
                 </div>
                 <div className="item" data-aos="zoom-in" data-aos-delay="200"> 
                     <h3 className="project-title">Virtual Classroom</h3>
-                    <p className="project-date">August 2022 - December 2022</p>
+                    <p className="project-date">January 2022 - April 2022</p>
                     <div className="project-description">
                         <img src={require('../assets/Virtual-Classroom.png')} alt="Virtual Classroom" className="project-image" />
                         <p>A Virtual Classroom is an online platform where teachers and students can
