@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.0eb47752.css",
-    "main.js": "/my-portfolio/static/js/main.222664d1.js",
+    "main.js": "/my-portfolio/static/js/main.d75e1cd6.js",
     "static/media/springboot.jpg": "/my-portfolio/static/media/springboot.ddd04734fe086d24fd3e.jpg",
     "static/media/blogging-platform.png": "/my-portfolio/static/media/blogging-platform.92436ccbbd9a423c3370.png",
     "static/media/postgres.png": "/my-portfolio/static/media/postgres.61d75ac8007cc7934108.png",
     "static/media/background.gif": "/my-portfolio/static/media/background.e3f49052f35f77e5a989.gif",
-    "static/media/Dhanusree_Kodali_Resume.pdf": "/my-portfolio/static/media/Dhanusree_Kodali_Resume.fd925eeed0f58658bcff.pdf",
+    "static/media/Dhanusree_Kodali_Resume.pdf": "/my-portfolio/static/media/Dhanusree_Kodali_Resume.07bf3c7bb4b855fcd778.pdf",
     "static/media/jenkins.png": "/my-portfolio/static/media/jenkins.12fca526a7cd5acdcad9.png",
     "static/media/aws-certificate.png": "/my-portfolio/static/media/aws-certificate.20ac2ddc22a9c8206dfb.png",
     "static/media/Virtual-Classroom.png": "/my-portfolio/static/media/Virtual-Classroom.47fea2ab173e5daff87e.png",
@@ -25,10 +25,10 @@
     "static/media/angular.png": "/my-portfolio/static/media/angular.be2d24740c6d32ef26f7.png",
     "index.html": "/my-portfolio/index.html",
     "main.0eb47752.css.map": "/my-portfolio/static/css/main.0eb47752.css.map",
-    "main.222664d1.js.map": "/my-portfolio/static/js/main.222664d1.js.map"
+    "main.d75e1cd6.js.map": "/my-portfolio/static/js/main.d75e1cd6.js.map"
   },
   "entrypoints": [
     "static/css/main.0eb47752.css",
-    "static/js/main.222664d1.js"
+    "static/js/main.d75e1cd6.js"
   ]
 }
